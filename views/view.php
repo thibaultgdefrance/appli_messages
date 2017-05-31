@@ -11,7 +11,7 @@
     <body>
         <div class="container corps">
             <div class="row">
-                <div class="col-md-offset-4 col-md-2 ">
+                <div class="col-md-offset-4 col-md-2 col-sm-12 col-xs-12">
                     <div class="titre">
                         <div class="col-md-12">
 

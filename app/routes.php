@@ -12,7 +12,7 @@ $app->get('/', function () {
 
     ob_start();             // start buffering HTML output
 
-    require '../views/view.php';
+    require '../views/view02.php';
 
     $view = ob_get_clean(); // assign HTML output to $view
 
