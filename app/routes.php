@@ -10,11 +10,11 @@ $app->get('/', function () {
     $messages = getMessages();
 
 
-    ob_start();             // start buffering HTML output
+    ob_start();
 
     require '../views/view02.php';
-
-    $view = ob_get_clean(); // assign HTML output to $view
+    require '../views/view.php';
+    $view = ob_get_clean();
 
     return $view;
 

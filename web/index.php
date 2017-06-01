@@ -6,8 +6,6 @@ require_once __DIR__.'/../vendor/autoload.php';
 $app = new Silex\Application();
 
 
-// enable the debug mode
-
 $app['debug'] = true;
 
 
