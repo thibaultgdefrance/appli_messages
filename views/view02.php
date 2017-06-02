@@ -24,12 +24,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <form class="formulaire" action="index.html" method="post">
+                    <form class="formulaire" action="record.php" method="post">
                         <div class="col-md-4 col-md-offset-4">
-                            <input type="text" name="auteur" value="" placeholder="votre nom">
+                            <input type="text" name="auteur" value="" placeholder="votre nom" >
                         </div>
                         <div class="col-md-6 col-md-offset-4">
-                            <input type="textarea" name="texte" value="" placeholder="votre message">
+                            <input type="textarea" name="texte" value="" placeholder="votre message" required="">
                         </div>
                         <div class="col-md-2 col-md-offset-4">
                             <input type="submit" name="décollage" value="décollage">

@@ -1,5 +1,5 @@
 <?php
-    require
+    
 
     $auteur = isset($_POST['auteur']) ? $_POST['auteur'] : '';
     $texte = isset($_POST['texte']) ? $_POST['texte'] : '';

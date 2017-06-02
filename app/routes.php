@@ -13,7 +13,6 @@ $app->get('/', function () {
     ob_start();
 
     require '../views/view02.php';
-    require '../views/view.php';
     $view = ob_get_clean();
 
     return $view;
